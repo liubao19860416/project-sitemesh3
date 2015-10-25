@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+	
+	<!-- 可以配置多个映射关系 -->
+	<!-- <mapping path="/contacts.do" decorator="/sitemesh3/main1.jsp" /> -->
+	<!-- <mapping path="/hello.do" decorator="/sitemesh3/main2.jsp" /> -->
+	
+	<mapping path="/*" decorator="/sitemesh3/sitemesh3.jsp" />
+</sitemesh>  
